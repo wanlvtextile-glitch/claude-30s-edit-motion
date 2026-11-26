@@ -1,0 +1,23 @@
+{
+  "name": "opus-edit-motion",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Remotion recreation of a hand-drawn screen-recording motion piece: Claude edits a 30s video.",
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render OpusEdit out/opus-edit.mp4",
+    "still": "remotion still OpusEdit out/still.png",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.547",
+    "remotion": "4.0.547",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.0",
+    "@types/react-dom": "19.1.0",
+    "typescript": "5.9.2"
+  }
+}
